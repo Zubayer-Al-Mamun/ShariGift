@@ -7,7 +7,7 @@ import Menu from "./Menu";
 
 export default function Header() {
     return (
-        <div className="w-full bg-white shadow-lg h-[60px] flex justify-center fixed z-50">
+        <div className="w-full bg-white shadow-lg h-[60px] flex justify-center fixed z-10">
             <div className="max-w-[1080px] w-[1080px] h-full flex justify-between items-center px-[10px] ">
                 <Menu />
                 <Logo />
